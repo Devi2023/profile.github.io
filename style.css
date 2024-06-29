@@ -33,8 +33,9 @@ nav.navbar-nav.nav-link {
 .card img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    transition: transform 0.2s;
+    border-radius: 50%;
+    transition: transform 1.5s;
+
 }
 
 .card img:hover {
@@ -42,7 +43,7 @@ nav.navbar-nav.nav-link {
 }
 
 .card-title {
-    color: #00ffaa;
+    color: #002fff99;
 }
 
 footer {
