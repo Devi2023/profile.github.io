@@ -8,3 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
             item.classList.add("hover");
         });
     });
+// Example with Lozad.js
+const observer = lozad('.project-item');
+observer.observe();

@@ -1,84 +1,77 @@
 body {
     font-family: 'Arial', sans-serif;
-}
-
-header {
+  }
+  
+  header {
     background-color: #333;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-}
-
-header img {
+  }
+  
+  header img {
     border: 5px solid white;
     margin: 20px;
     display: none; /* hide image on desktop */
-}
-
-h1, h2 {
+  }
+  
+  h1, h2 {
     font-weight: bold;
-}
-
-nav.navbar-nav.nav-link {
+  }
+  
+  nav.navbar-nav.nav-link {
     color: #fff!important;
-}
-
-.card {
+  }
+  
+  .card {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: whitesmoke;
     border: none;
-}
-
-.card img {
+  }
+  
+  .card img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    transition: transform 1.5s;
-
-}
-
-.card img:hover {
-    transform: scale(1.05);
-}
-
-.card-title {
+  }
+  
+  .card-title {
     color: #002fff99;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #343a40;
-}
-
-footer p {
+  }
+  
+  footer p {
     margin: 0;
-}
-
-@media (max-width: 768px) {
-   .card img {
-        margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card img {
+      margin-bottom: 20px;
     }
     header img {
-        display: block; /* show image on mobile */
+      display: block; /* show image on mobile */
     }
-}
-
-.project-item {
+  }
+  
+  .project-item {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project-img {
+  }
+  
+  .project-img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
-    transition: transform 0.5s;
-}
-
-.project-overlay {
+  }
+  
+  .project-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -89,33 +82,12 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.project-title {
+    padding: 20px;
+  }
+  
+  .project-title {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-}
-
-.project-item:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.project-item:hover .project-img {
-    transform: scale(1.05);
-}
-
-.project-item:hover .project-overlay {
-    opacity: 1;
-}
-/* Add this to your CSS file */
-.project-item.hover .project-overlay {
-    opacity: 1;
-}
-
-.project-item.hover .project-img {
-    transform: scale(1.05);
-}
+  }
